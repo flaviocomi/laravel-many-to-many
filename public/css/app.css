@@ -11356,3 +11356,101 @@ a.text-dark:focus {
   }
 }
 
+body {
+  background-color: #ccc;
+  padding: 10px;
+}
+
+body header {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
+body .head {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body .head h1 {
+  display: inline;
+}
+
+body .head #new {
+  background-color: #218ea1;
+  padding: 15px 25px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+}
+
+body .head #new:hover {
+  text-decoration: none;
+  background-color: #0f778a;
+}
+
+body .emp {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+body .emp .item {
+  background: white;
+  border: solid 1px #000;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  margin: 5px;
+  padding: 15px;
+  width: auto;
+  min-height: 400px;
+}
+
+body .emp .item h3 {
+  text-align: center;
+}
+
+body .emp .item ul li {
+  list-style: none;
+}
+
+body .emp .item #but {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body .emp .item #but #edit {
+  padding: 2px 8px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #119911;
+}
+
+body .emp .item #but #edit:hover {
+  text-decoration: none;
+  background-color: #076b07;
+}
+
+body .emp .item #but #delete {
+  padding: 2px 8px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #e73737;
+}
+
+body .emp .item #but #delete:hover {
+  text-decoration: none;
+  background-color: #991313;
+}
+
